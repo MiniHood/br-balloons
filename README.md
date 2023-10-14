@@ -3,7 +3,7 @@
 Thank you for downloading my sciprt!
 To setup the br-balloons, you have to put this codes:
 
-# qbcore -> shared -> items -> 
+* qbcore -> shared -> items -> 
 
 ```lua
     ['balloons_packet'] = {['name'] = 'balloons_packet', ['label'] = 'Балони', ['weight'] = 500, ['type'] = 'item', ['image'] = 'ballons_packet.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Пакет с балони, брат мее.'},
@@ -15,7 +15,7 @@ To setup the br-balloons, you have to put this codes:
     ['full_balloon'] = {['name'] = 'full_balloon', ['label'] = 'Балони с райски газ', ['weight'] = 500, ['type'] = 'item', ['image']     ='empty_balloon.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Балонаа.'},
 ```
 
-# inventory -> html -> js -> around line 500 ->
+* inventory -> html -> js -> around line 500 ->
 ```js
 } else if (itemData.name == "flask") {
                 $(".item-info-title").html("<p>" + itemData.label + "</p>");
