@@ -6,13 +6,15 @@ To setup the br-balloons, you have to put this codes:
 * qbcore -> shared -> items -> 
 
 ```lua
-    ['balloons_packet'] = {['name'] = 'balloons_packet', ['label'] = 'Балони', ['weight'] = 500, ['type'] = 'item', ['image'] = 'ballons_packet.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Пакет с балони, брат мее.'},
-    
-    ['flask'] = {['name'] = 'flask', ['label'] = 'Флакон', ['weight'] = 500, ['type'] = 'item', ['image'] = 'flask.png', ['unique'] = true,    ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Райски газ, брат мее.'},
-    
-    ['empty_balloon'] = {['name'] = 'empty_balloon', ['label'] = 'Балони', ['weight'] = 500, ['type'] = 'item', ['image'] = 'balloon.png',    ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Балони.'},
-    
-    ['full_balloon'] = {['name'] = 'full_balloon', ['label'] = 'Балони с райски газ', ['weight'] = 500, ['type'] = 'item', ['image']     ='empty_balloon.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Балонаа.'},
+   
+	['balloons_packet'] = {['name'] = 'balloons_packet', ['label'] = 'Balloons pack', ['weight'] = 500, ['type'] = 'item', ['image'] = 'ballons_packet.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Packet with balloons for a 
+    birthday'},
+
+	['flask'] = {['name'] = 'flask', ['label'] = 'Flask', ['weight'] = 500, ['type'] = 'item', ['image'] = 'flask.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Flask with heaven gas.'},
+
+	['empty_balloon'] = {['name'] = 'empty_balloon', ['label'] = 'Balloons', ['weight'] = 500, ['type'] = 'item', ['image'] = 'empty_balloon.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Baloons.'},
+
+	['full_balloon'] = {['name'] = 'full_balloon', ['label'] = 'Heaven Balloons', ['weight'] = 500, ['type'] = 'item', ['image'] = 'full_balloon.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Balloon with heaven gas maan.'},
 ```
 
 * inventory -> html -> js -> around line 500 ->
