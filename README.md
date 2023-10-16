@@ -16,7 +16,7 @@ For the instalation you have to follow these easy steps:
 
 ```lua
 
-['balloons_packet'] = {['name'] = 'balloons_packet', ['label'] = 'Balloons pack', ['weight'] = 500, ['type'] = 'item', ['image'] = 'ballons_packet.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Packet with balloons for a birthday'}
+['balloons_packet'] = {['name'] = 'balloons_packet', ['label'] = 'Balloons pack', ['weight'] = 500, ['type'] = 'item', ['image'] = 'ballons_packet.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Packet with balloons for a birthday'},
 
 ['flask'] = {['name'] = 'flask', ['label'] = 'Flask', ['weight'] = 500, ['type'] = 'item', ['image'] = 'flask.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'Flask with heaven gas.'},
 
