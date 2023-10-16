@@ -4,7 +4,7 @@ Thank you for downloading my sciprt!
 To setup the br-balloons, you have to put this codes:
 
 # Description:
-The script is a representation of real life - you buy balloons, buy a bottle of heaven gas, open the package of balloons, put a balloon on top of the bottle and fill, then breathe
+The script is a representation of real life - you buy balloons, buy a bottle of heaven gas, open the package of balloons, put a balloon on top of the bottle and fill, then breathe. Also the police can check you for using heaven gas
 
 # Preview:
 https://www.youtube.com/watch?v=tB49u6gFVIo&t=1s
@@ -34,4 +34,12 @@ For the instalation you have to follow these easy steps:
                     itemData.info.quality +
                     "</span></p>"
                 );
+```
+* qb-policejob -> client -> evidence -> Add the following code to the local StatusList {}
+```lua
+    ["heavengas"] = Lang:t('evidence.heavengas')
+```
+* qb-policejob -> locales -> en -> Add the following code to evidence {}
+```lua
+     heavengas = 'it looks like you used heaven gas',
 ```
