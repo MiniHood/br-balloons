@@ -125,7 +125,7 @@ CreateThread(function()
 CreateThread(function()
 	while true do
 			Wait(1)
-			if Timer <= 20 then
+			if Timer <= Config.OverdoseInterval then
 				if AmountTaken >= Config.OverdoseAmount then
 					    SetEntityHealth(PlayerPedId(), 0)
 				end
